@@ -4,10 +4,10 @@ const app = express();
 app.use(express.json());
 
 const userInfo = {
-    full_name: "john_doe",  
-    dob: "17091999",        
-    email: "john@xyz.com", 
-    roll_number: "ABCD123"  
+    full_name: "A Vyshnav Kumar",  
+    dob: "31052003",        
+    email: "vyshnavak05@gmail.com", 
+    roll_number: "21BCE1041"  
 };
 
 // POST endpoint to handle data and return the desired response
