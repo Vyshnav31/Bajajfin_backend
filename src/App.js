@@ -30,6 +30,7 @@ function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(parsedInput),
+        mode: 'cors',
       });
       const result = await res.json();
       setResponse(result);
