@@ -24,7 +24,7 @@ function App() {
     }
 
     try {
-      const res = await fetch('http://localhost:8080/bfhl', { 
+      const res = await fetch('https://bajajfin-backend.onrender.com/bfhl', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
